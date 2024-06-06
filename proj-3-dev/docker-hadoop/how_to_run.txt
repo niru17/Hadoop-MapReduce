@@ -1,0 +1,10 @@
+Move to the directory having all you java codes then hit:
+javac -cp $(hadoop classpath) *.java
+This will generate your .class files
+Now run :
+jar -cvf <name for your jar file>  .
+
+- add access:
+chmod +x <filename>
+- transfer file to container:
+docker cp 
